@@ -1,0 +1,91 @@
+#topBar{
+  top: 0vw;
+  left: 0vw;
+  background-color: rgb(0, 0, 0);
+  display: table;
+  width:100%;
+  text-align: center;
+
+}
+
+#title{
+  color: white;
+  width: fit-content;
+  text-align: center;
+  line-height: 4vw;
+  border-style: groove;
+  border-color: white;
+  display: inline-block;
+  margin-left: 13%;
+
+
+}
+
+#topBarLogo{
+  display: inline-block;
+  height: 8vw;
+  float: right;
+  margin-right: 5vw;
+
+}
+.contain{
+  margin-left: 39vw;
+  margin-top: 5vw;
+  width: 16vw;
+  height: 18vw;
+  text-align: center;
+  background-color: lightgrey;
+  border-radius: 20px;
+}
+
+.contain .text{
+  position: relative;
+  top: 7%
+}
+
+.inp1{
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid black;
+  width: 180px;
+  font-size: 18px;
+  margin-top: 50px;
+  outline: none;
+  color: black;
+}
+
+.inp2{
+  border: none;
+  background-color: white;
+  border-bottom: 2px solid black;
+  width: 180px;
+  font-size: 18px;
+  margin-top: 50px;
+  outline: none;
+  color: black;
+}
+
+p{
+  margin-top: 40px;
+  font-size: 15x;
+}
+
+button{
+  width: 140px;
+  height: 40px;
+  background-color: black;
+  color:white;
+  margin-top: 30px;
+  border-radius: 10px;
+}
+
+button:hover{
+  border: 3px solid black;
+  color: black;
+  background-color: white;
+}
+
+h2{
+  margin-top: 22px;
+  color: black;
+}
