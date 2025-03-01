@@ -1,0 +1,80 @@
+#topBar{
+  top: 0vw;
+  left: 0vw;
+  background-color: black;
+  width:100vw;
+  height:10vw;
+  display: flex;
+  justify-content: flex-end;
+}
+
+#title{
+  color: white;
+  width: fit-content;
+  text-align: center;
+  height: 4vw;
+  width: 20vw;
+  font-size: 2.8vw;
+  line-height: 4vw;
+  border-style: groove;
+  border-color: white;
+  font-style: oblique;
+  margin-right: 20vw;
+}
+
+#topBarLogo{
+  height: 10vw;
+  width: 15vw;
+  margin-right: 5vw;
+}
+
+
+.bookingBoxes{
+  background-color: #34a1eb;
+  color: #095080;
+  height: 15vw;
+  margin: 1vw;
+  font-size: 3vw;
+  display: inline-flex;
+  cursor: pointer;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  font-style: oblique;
+}
+#bookRoomBox{
+  width: 62vw;
+  clear: right;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#checkCalendarBox{
+  width: 30vw;
+  float: left;
+  clear: left;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#cancelBookingBox{
+  width: 30vw;
+  float: left;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+#cancelNotifBox{
+  background-color: pink;
+  float: right;
+  clear: both;
+  height: 32vw;
+  width: 28vw;
+  margin-top: 1vw;
+  margin-right: 5vw;
+}
+#line{
+  border-bottom: 2px solid black;
+  display: block;
+}

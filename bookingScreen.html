@@ -1,0 +1,67 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" href="bookingScreen.css">
+
+    <title>Agile Draft</title>
+
+
+  </head>
+
+
+  <body>
+
+    <div id="topBar">
+
+      <h1 id="title">Educational Hub</h1>
+
+      <img id="topBarLogo" src="agileLogo.jpg">
+    </div>
+
+    <a href="splashScreen.html" id="homeButton">
+        Home
+    </a>
+
+    <p id="askWhichDate">Please select which date<br> you would like to book:</p>
+
+    <div id="calendarBox">
+
+
+
+      <div id="Calendar">
+
+          <div class="monthSelect">
+            <button id="prevMonth" class="monthSelectButtons"> &lt </button>
+              <div id="monthSelected"></div>
+            <button id="nextMonth" class="monthSelectButtons"> &gt </button>
+          </div>
+
+          <div id="weekdays">
+            <div class="day">Sun</div>
+            <div class="day">Mon</div>
+            <div class="day">Tue</div>
+            <div class="day">Wed</div>
+            <div class="day">Thur</div>
+            <div class="day">Fri</div>
+            <div class="day">Sat</div>
+          </div>
+
+          <div id = "dates"></div>
+
+      </div>
+
+          <div id="dateSelected">
+            <h3 id="daySelected">Day:</h3>
+
+            <p id="availableTimes">Available times: <br></p>
+
+
+
+          </div>
+
+      </div>
+    <script type="text/javascript" src="bookingScript.js" ></script>
+
+  </body>
+</html>
